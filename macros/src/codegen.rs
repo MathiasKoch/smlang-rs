@@ -411,7 +411,6 @@ pub fn generate_code(sm: &ParsedStateMachine) -> proc_macro2::TokenStream {
 
         /// List of auto-generated events.
         #[allow(missing_docs)]
-        #[derive(PartialEq)]
         #events_code_block
 
         /// List of possible errors
